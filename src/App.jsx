@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./sections/About"; // ⬅ add this
-import Skills from "./sections/Skills"; // ⬅ add
-import Education from "./sections/Education"; // ⬅ add this
+import About from "./Sections/About"; // ⬅ add this
+import Skills from "./Sections/Skills"; // ⬅ add
+import Education from "./Sections/Education"; // ⬅ add this
 import Projects from "./Sections/Projects";
 import Contact from "./Sections/Contact";
 import Footer from "./components/Footer";
