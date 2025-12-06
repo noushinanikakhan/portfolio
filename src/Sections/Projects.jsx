@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import PlateShare from "./../assets/PlateShare.png";
 
 const projects = [
   {
     id: "ocean-academy",
     name: "Ocean Academy",
-    image: "https://via.placeholder.com/400x250?text=Ocean+Academy", // replace with real screenshot later
+    // image: "https://via.placeholder.com/400x250?text=Ocean+Academy", // replace with real screenshot later
     shortDescription:
       "A full-stack e-learning platform built entirely with Next.js 16, featuring courses, authentication, and course CRUD via API routes.",
     techStack: [
@@ -32,7 +33,7 @@ const projects = [
   {
     id: "plateshare",
     name: "PlateShare – Community Food-Sharing App",
-    image: "https://via.placeholder.com/400x250?text=PlateShare", // replace with real screenshot later
+    // image: PlateShare, 
     shortDescription:
       "A MERN-based platform connecting food donors with people in need to reduce food waste and support community sharing.",
     techStack: ["React", "Node.js", "Express.js", "MongoDB", "REST APIs"],
@@ -53,7 +54,7 @@ const projects = [
   {
     id: "skillswap",
     name: "SkillSwap – Local Skill Exchange Platform",
-    image: "https://via.placeholder.com/400x250?text=SkillSwap", // replace with real screenshot later
+    // image: "https://via.placeholder.com/400x250?text=SkillSwap", // replace with real screenshot later
     shortDescription:
       "An interactive platform where people can exchange skills like coding, music, languages, and more within their local community.",
     techStack: [
